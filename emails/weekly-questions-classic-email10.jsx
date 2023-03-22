@@ -37,6 +37,14 @@ const text = {
     lineHeight: '38px',
     letterSpacing: '-0.025em',
   },
+  tealheading: {
+    margin: '0 0 16px 0',
+    color: '#1FA494',
+    fontWeight: '700',
+    fontSize: '40px',
+    lineHeight: '38px',
+    letterSpacing: '-0.025em',
+  },
 }
 
 const li = {
@@ -78,19 +86,23 @@ export default function Email() {
               }}
             />
           </nav>
-          <Text style={text.heading}>Ready to get started Jonah?</Text>
-
-          <Text style={text.base}>Hi Jonah, welcome!</Text>
+          <Text style={text.heading}>[name,] [question]</Text>
 
           <Text style={text.base}>
-            You can approach telling your story in exactly your own unique way, so your year&apos;s
-            membership provides plenty of options to do just that.
+            Hi [name], have you been wondering what this week&apos;s question will be?
           </Text>
 
+          <Text style={text.base}>Your question of the week is</Text>
+
+          <Text style={text.tealheading}>[randomised question from the question bank]</Text>
+          <br />
+
           <Text style={text.base}>
-            Your very first question will arrive in your inbox shortly but whilst you&apos;re
-            waiting you might want to have a look around your personal membership platform, so here
-            are some tips for finding your way around the Family Fortunate website.
+            Log into your Family Fortunate&nbsp;
+            <Link href="#" style={{ link, textDecoration: 'none' }}>
+              [link]
+            </Link>
+            &nbsp;account to browse your questions & edit your stories.
           </Text>
 
           <br />
@@ -98,65 +110,52 @@ export default function Email() {
             <a
               href="#"
               style={{
-                backgroundColor: '#21C0AD',
-                color: 'white',
+                /* Auto layout */
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'center',
+                alignItems: 'center',
+                padding: '4px',
+                gap: '92px',
+
+                width: '243px',
+                height: '58px',
+
+                /* Primary/Primary 400 */
+                background: '#21C0AD',
+                borderRadius: '12px',
+
+                /* Inside auto layout */
+                flex: 'none',
+                order: '5',
+                flexGrow: '0',
+
+                /*Label*/
                 textDecoration: 'none',
+                color: 'white',
+                textAlign: 'center',
                 fontWeight: 'bold',
-                padding: '10px',
-                borderRadius: '5px',
               }}
             >
-              Sign in
+              Tell your story
             </a>
           </div>
           <br />
 
-          <ul style={text.base}>
-            <li style={li}>
-              <Link href="#" style={link}>
-                Help
-              </Link>{' '}
-              - You have access to an extensive online help centre if you need assistance finding
-              your way around your personal membership center.
-            </li>
-          </ul>
-
           <Text style={text.base}>
-            You have 100 unique questions during your membership, but you have even more options
-            than that.
-          </Text>
-
-          <ul style={text.base}>
-            <li style={li}>
-              <Link href="#" style={link}>
-                Select a different question
-              </Link>
-            </li>
-
-            <li style={li}>
-              <Link href="#" style={link}>
-                Edit your story
-              </Link>{' '}
-              - You can continue to make changes to your stories right throughout your membership
-            </li>
-          </ul>
-
-          <Text style={text.base}>
-            I hope you enjoy the exciting journey you&apos;re about to start as you recapture your
-            memories with the help of Family Fortunate.
-          </Text>
-
-          <Text style={text.base}>
-            Best wishes, <br />
-            <span style={{ fontWeight: 700 }}>Rachel</span> <br />
-            Founder of Family Fortunate
+            Enjoy your look back in time this week. We hope you get a kick out of where your
+            memories take you. <br />
+            <br />
+            <span style={{ fontWeight: 700 }}>The team at Family Fortunate</span> <br />
           </Text>
 
           <div
             style={{
               marginBottom: '16px',
               backgroundColor: '#d0d5dd',
-              background: 'url(/static/bnimage.png)',
+              background: 'url(/static/Emailbottombannergetpublished1.png)',
+              backgroundSize: 'cover',
+              position: 'flex',
               width: '700px',
               height: '249px',
               left: '-1px',
