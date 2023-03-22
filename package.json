@@ -7,17 +7,20 @@
     "lint": "eslint . --ext .jsx"
   },
   "dependencies": {
-    "@react-email/button": "^0.0.4",
+    "@react-email/button": "0.0.4",
+    "@react-email/container": "0.0.8",
     "@react-email/head": "^0.0.2",
     "@react-email/hr": "^0.0.2",
     "@react-email/html": "^0.0.2",
-    "@react-email/img": "^0.0.2",
+    "@react-email/img": "0.0.2",
     "@react-email/link": "^0.0.2",
     "@react-email/preview": "^0.0.2",
     "@react-email/section": "^0.0.1",
     "@react-email/text": "^0.0.2",
+    "@syncfusion/ej2-react-buttons": "^20.4.53",
     "react": "^18.2.0",
     "react-email": "^1.0.6",
+    "styled-components": "^5.3.9",
     "tailwindcss": "^3.2.4"
   },
   "devDependencies": {
@@ -27,7 +30,7 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.32.1",
+    "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^2.8.3"
   }

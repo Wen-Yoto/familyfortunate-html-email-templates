@@ -3,7 +3,7 @@
     "browser": true,
     "es2021": true
   },
-  "extends": ["plugin:react/recommended", "airbnb", "prettier"],
+  "extends": ["plugin:react/recommended", "airbnb", "prettier", "react"],
   "overrides": [],
   "parserOptions": {
     "ecmaVersion": "latest",
@@ -12,6 +12,14 @@
   "plugins": ["react", "prettier"],
   "rules": {
     "prettier/prettier": "error",
-    "jsx-a11y/anchor-is-valid": "off"
+    "jsx-a11y/anchor-is-valid": "off",
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "no-unused-vars": [
+      "error",
+      {
+        "varsIgnorePattern": "React"
+      }
+    ]
   }
 }

@@ -103,53 +103,49 @@ export default function Email() {
       <body style={base}>
         <Section style={container}>
           <nav>
-          <div
-            style={{
-              /* FF Logo 1 */
-              background: 'url(/static/FF-logo.png)',
-              backgroundSize: 'cover',
-              width: '150px',
-              height: '93px',
-              top: '40px',
-              left: '80px',
+            <div
+              style={{
+                /* FF Logo 1 */
+                background: 'url(/static/FF-logo.png)',
+                backgroundSize: 'cover',
+                width: '150px',
+                height: '93px',
+                top: '40px',
+                left: '80px',
 
-              /* Inside auto layout */
-              flex: 'none',
-              flexGrow: '0',
-              order: '0',
-            }}
-            
-          />
+                /* Inside auto layout */
+                flex: 'none',
+                flexGrow: '0',
+                order: '0',
+              }}
+            />
           </nav>
           <Text style={text.heading}>Jonah, here&apos;s your first question!</Text>
 
           <Text style={text.base}>Hi Jonah, welcome!</Text>
 
           <Text style={text.base}>
-            Thanks for joining the Family Fortunate community as a 
-            premium member. There&apos;s so much value in what you&apos;re 
-            about to embark on, and I&apos;m sure you&apos;ll really enjoy 
-            the process of recalling & writing your stories.
+            Thanks for joining the Family Fortunate community as a premium member. There&apos;s so
+            much value in what you&apos;re about to embark on, and I&apos;m sure you&apos;ll really
+            enjoy the process of recalling & writing your stories.
           </Text>
 
           <Text style={text.base}>
-            Each week throughout your year&apos;s membership you&apos;ll 
-            receive a weekly email. You&apos;ll also receive pro tips to help 
-            you recall your memories & how to get them down on 
-            paper in an engaging way. Here&apos;s the first tip, which I&apos;ve 
-            incorporated into your first question so you can start out 
-            strong!
+            Each week throughout your year&apos;s membership you&apos;ll receive a weekly email.
+            You&apos;ll also receive pro tips to help you recall your memories & how to get them
+            down on paper in an engaging way. Here&apos;s the first tip, which I&apos;ve
+            incorporated into your first question so you can start out strong!
           </Text>
 
           <Text style={text.strongfont}>PRO TIP</Text>
 
           <Text style={text.subbaseitalic}>
-            To make the most out of your membership it&apos;s always helpful for you to delve more 
+            To make the most out of your membership it&apos;s always helpful for you to delve more
             deeply into the prompt you&apos;re sent each week.
           </Text>
 
           <Text style={text.subbaseitalic}>
-            As you can see from your very first prompt, there are many elements to one question 
+            As you can see from your very first prompt, there are many elements to one question
             which will help you to create or capture your thoughts, memories & experiences.
           </Text>
 
@@ -165,45 +161,44 @@ export default function Email() {
               How did you get your membership? Did you purchase it, or was it a gift from someone?
             </li>
             <li style={li}>
-              What was your first reaction when you received your gift or found the Family Fortunate website? What prompted you to join?
+              What was your first reaction when you received your gift or found the Family Fortunate
+              website? What prompted you to join?
             </li>
             <li style={li}>
-              Set the scene - where are you physically sitting right now as you begin this journey? What&apos;s around you?
+              Set the scene - where are you physically sitting right now as you begin this journey?
+              What&apos;s around you?
             </li>
-            <li style={li}>
-              Is the sun shining or is it snowing?
-            </li>
-            <li style={li}>
-              Have you got a drink with you?
-            </li>
-            <li style={li}>
-              Are there any other people around right now?
-            </li>
-            <li style={li}>
-              How old are you? What&apos;s the date?
-            </li>
+            <li style={li}>Is the sun shining or is it snowing?</li>
+            <li style={li}>Have you got a drink with you?</li>
+            <li style={li}>Are there any other people around right now?</li>
+            <li style={li}>How old are you? What&apos;s the date?</li>
             <li style={li}>
               What are you looking forward to as you move through your year of questions?
             </li>
           </ul>
 
-          <br/>
-          <br/>
+          <br />
+          <br />
           <div>
-            <a href="#" style={{
-              backgroundColor: '#21C0AD',
-              color: 'white',
-              textDecoration: 'none',
-              fontWeight: 'bold',
-              padding: '10px',
-              borderRadius: '5px',
-              }}>MY FIRST QUESTION</a>
+            <a
+              href="#"
+              style={{
+                backgroundColor: '#21C0AD',
+                color: 'white',
+                textDecoration: 'none',
+                fontWeight: 'bold',
+                padding: '10px',
+                borderRadius: '5px',
+              }}
+            >
+              MY FIRST QUESTION
+            </a>
           </div>
-          <br/>
+          <br />
 
           <Text style={text.base}>
-            Once again, welcome, and I truly hope you enjoy creating 
-            an heirloom for your Fortunate Family!
+            Once again, welcome, and I truly hope you enjoy creating an heirloom for your Fortunate
+            Family!
           </Text>
 
           <Text style={text.base}>
@@ -224,13 +219,11 @@ export default function Email() {
               backgroundSize: 'cover',
             }}
           />
-          
+
+          <Text style={text.base}>📍 Stay Updated!</Text>
           <Text style={text.base}>
-            📍 Stay Updated!
-          </Text>
-          <Text style={text.base}>
-            Follow us on our social media accounts to get more updates 
-            on our new releases and any ongoing promotions.
+            Follow us on our social media accounts to get more updates on our new releases and any
+            ongoing promotions.
           </Text>
 
           <div

@@ -103,103 +103,95 @@ export default function Email() {
       <body style={base}>
         <Section style={container}>
           <nav>
-          <div
-            style={{
-              /* FF Logo 1 */
-              background: 'url(/static/FF-logo.png)',
-              backgroundSize: 'cover',
-              width: '150px',
-              height: '93px',
-              top: '40px',
-              left: '80px',
+            <div
+              style={{
+                /* FF Logo 1 */
+                background: 'url(/static/FF-logo.png)',
+                backgroundSize: 'cover',
+                width: '150px',
+                height: '93px',
+                top: '40px',
+                left: '80px',
 
-              /* Inside auto layout */
-              flex: 'none',
-              flexGrow: '0',
-              order: '0',
-            }}
-            
-          />
+                /* Inside auto layout */
+                flex: 'none',
+                flexGrow: '0',
+                order: '0',
+              }}
+            />
           </nav>
           <Text style={text.heading}>How was your first week Jonah?</Text>
 
           <Text style={text.base}>Hi Jonah, welcome!</Text>
 
           <Text style={text.base}>
-            Thanks for joining the Family Fortunate community. 
-            I&apos;m sure you&apos;ll really enjoy the process of recalling & writing your 
-            stories.
+            Thanks for joining the Family Fortunate community. I&apos;m sure you&apos;ll really
+            enjoy the process of recalling & writing your stories.
           </Text>
 
-          <Text style={text.base}>
-            As a reminder, this is what will happen:
-          </Text>
+          <Text style={text.base}>As a reminder, this is what will happen:</Text>
 
           <Text style={text.base}>
-            Each week we&apos;ll email a starting point to you for inspiration. 
-            Most are questions, but some might be &apos;Tell me about…&apos;
-            Either way, I hope they provide the encouragement & 
-            motivation to start writing your stories.
+            Each week we&apos;ll email a starting point to you for inspiration. Most are questions,
+            but some might be &apos;Tell me about…&apos; Either way, I hope they provide the
+            encouragement & motivation to start writing your stories.
           </Text>
 
           <Text style={text.strongfont}>ANOTHER FREE TIP</Text>
 
           <Text style={text.subbaseitalic}>
-            I can&apos;t help myself, so here&apos;s another tip our Premium members receive as 
-            part of their package. I want to share this with you to help you craft really 
-            great stories based on the Classic questions you&apos;ll be sent each week.
+            I can&apos;t help myself, so here&apos;s another tip our Premium members receive as part
+            of their package. I want to share this with you to help you craft really great stories
+            based on the Classic questions you&apos;ll be sent each week.
           </Text>
 
           <Text style={text.subbaseitalic}>
-            As you can see from your very first prompt, there are many elements to one question 
+            As you can see from your very first prompt, there are many elements to one question
             which will help you to create or capture your thoughts, memories & experiences.
           </Text>
 
-          <Text style={text.strongfontcenter}>When you start to think about your weekly
-          question, also think “Why...?”</Text>
+          <Text style={text.strongfontcenter}>
+            When you start to think about your weekly question, also think “Why...?”
+          </Text>
 
           <ul style={text.base}>
+            <li style={li}>Why did this memory pop into your head?</li>
+            <li style={li}>Why has this memory stayed with you?</li>
             <li style={li}>
-                Why did this memory pop into your head?
+              If you&apos;d forgotten about this over the years, why do you think it popped up
+              again?
             </li>
-            <li style={li}>
-                Why has this memory stayed with you?
-            </li>
-            <li style={li}>
-                If you&apos;d forgotten about this over the years, why do you think it popped up again?
-            </li>
-            <li style={li}>
-              Why is this memory important to you?
-            </li>
-            <li style={li}>
-              Have you got a drink with you?
-            </li>
-            <li style={li}>
-              Has it shaped you as a person as you&apos;ve grown?
-            </li>
+            <li style={li}>Why is this memory important to you?</li>
+            <li style={li}>Have you got a drink with you?</li>
+            <li style={li}>Has it shaped you as a person as you&apos;ve grown?</li>
           </ul>
 
-          <br/>
-          <br/>
+          <br />
+          <br />
           <div>
-            <a href="#" style={{
-              backgroundColor: '#21C0AD',
-              color: 'white',
-              textDecoration: 'none',
-              fontWeight: 'bold',
-              padding: '10px',
-              borderRadius: '5px',
-              }}>MY FIRST QUESTION</a>
+            <a
+              href="#"
+              style={{
+                backgroundColor: '#21C0AD',
+                color: 'white',
+                textDecoration: 'none',
+                fontWeight: 'bold',
+                padding: '10px',
+                borderRadius: '5px',
+              }}
+            >
+              MY FIRST QUESTION
+            </a>
           </div>
-          <br/>
+          <br />
 
           <Text style={text.base}>
-            Are you excited? I hope so because your week 2 question 
-            will be in your inbox soon!
+            Are you excited? I hope so because your week 2 question will be in your inbox soon!
           </Text>
 
           <Text style={text.base}>
-            Good luck and enjoy!, <br/><br/>
+            Good luck and enjoy!, <br />
+            <br />
             <span style={{ fontWeight: 700 }}>Rachel</span> <br />
             Founder of Family Fortunate
           </Text>
@@ -216,13 +208,11 @@ export default function Email() {
               backgroundSize: 'cover',
             }}
           />
-          
+
+          <Text style={text.base}>📍 Stay Updated!</Text>
           <Text style={text.base}>
-            📍 Stay Updated!
-          </Text>
-          <Text style={text.base}>
-            Follow us on our social media accounts to get more updates 
-            on our new releases and any ongoing promotions.
+            Follow us on our social media accounts to get more updates on our new releases and any
+            ongoing promotions.
           </Text>
 
           <div

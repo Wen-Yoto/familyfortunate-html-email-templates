@@ -55,29 +55,28 @@ export default function Email() {
         <meta httpEquiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Onboarding One</title>
-        <link rel="stylesheet" href="style.css"></link>
+        <Link rel="stylesheet" href="style.css"></Link>
       </head>
 
       <body style={base}>
         <Section style={container}>
           <nav>
-          <div
-            style={{
-              /* FF Logo 1 */
-              background: 'url(/static/FF-logo.png)',
-              backgroundSize: 'cover',
-              width: '150px',
-              height: '93px',
-              top: '40px',
-              left: '80px',
+            <div
+              style={{
+                /* FF Logo 1 */
+                background: 'url(/static/FF-logo.png)',
+                backgroundSize: 'cover',
+                width: '150px',
+                height: '93px',
+                top: '40px',
+                left: '80px',
 
-              /* Inside auto layout */
-              flex: 'none',
-              flexGrow: '0',
-              order: '0',
-            }}
-            
-          />
+                /* Inside auto layout */
+                flex: 'none',
+                flexGrow: '0',
+                order: '0',
+              }}
+            />
           </nav>
           <Text style={text.heading}>Ready to get started Jonah?</Text>
 
@@ -94,21 +93,25 @@ export default function Email() {
             are some tips for finding your way around the Family Fortunate website.
           </Text>
 
-          <br/>
-          <div style={{textAlign: 'center'}}>
-            <a href="#" style={{
-              backgroundColor: '#21C0AD',
-              color: 'white',
-              textDecoration: 'none',
-              fontWeight: 'bold',
-              padding: '10px',
-              borderRadius: '5px',
-              }}>Sign in</a>
+          <br />
+          <div style={{ textAlign: 'center' }}>
+            <a
+              href="#"
+              style={{
+                backgroundColor: '#21C0AD',
+                color: 'white',
+                textDecoration: 'none',
+                fontWeight: 'bold',
+                padding: '10px',
+                borderRadius: '5px',
+              }}
+            >
+              Sign in
+            </a>
           </div>
-          <br/>
+          <br />
 
           <ul style={text.base}>
-
             <li style={li}>
               <Link href="#" style={link}>
                 Help
@@ -119,8 +122,8 @@ export default function Email() {
           </ul>
 
           <Text style={text.base}>
-            You have 100 unique questions during your membership, 
-            but you have even more options than that.
+            You have 100 unique questions during your membership, but you have even more options
+            than that.
           </Text>
 
           <ul style={text.base}>
@@ -161,7 +164,7 @@ export default function Email() {
               top: '1177px',
             }}
           />
-          
+
           <Text style={text.base}>
             Stay updated by following us on our social media accounts to get more updates on our new
             releases and any ongoing promotions.
