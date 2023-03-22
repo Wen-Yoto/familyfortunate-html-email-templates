@@ -37,6 +37,48 @@ const text = {
     lineHeight: '38px',
     letterSpacing: '-0.025em',
   },
+  strongfont: {
+    margin: '0 0 16px 0',
+    color: '#101828',
+    fontWeight: '700',
+    fontSize: '20px',
+    lineHeight: '38px',
+    letterSpacing: '-0.025em',
+  },
+  strongfontcenter: {
+    margin: '0 0 16px 0',
+    color: '#101828',
+    fontWeight: '700',
+    fontSize: '20px',
+    lineHeight: '38px',
+    letterSpacing: '-0.025em',
+    textAlign: 'center',
+  },
+  subbase: {
+    margin: '0 0 16px 0',
+    color: '#101828',
+    fontWeight: '700',
+    fontSize: '14px',
+    lineHeight: '38px',
+    letterSpacing: '-0.025em',
+  },
+  subbasebold: {
+    margin: '0 0 16px 0',
+    color: '#101828',
+    fontSize: '16px',
+    lineHeight: '24px',
+    fontWeight: '400',
+    letterSpacing: '0.005em',
+    textAlign: 'center',
+  },
+  subbaseitalic: {
+    margin: '0 0 16px 0',
+    color: '#667085',
+    fontSize: '14px',
+    lineHeight: '24px',
+    fontStyle: 'italic',
+    letterSpacing: '0.005em',
+  },
 }
 
 const li = {
@@ -79,92 +121,83 @@ export default function Email() {
             
           />
           </nav>
-          <Text style={text.heading}>Ready to get started Jonah?</Text>
+          <Text style={text.heading}>Jonah, have you answered your first question?
+
+</Text>
 
           <Text style={text.base}>Hi Jonah, welcome!</Text>
 
           <Text style={text.base}>
-            You can approach telling your story in exactly your own unique way, so your year&apos;s
-            membership provides plenty of options to do just that.
+            Welcome to the story of your life!
           </Text>
 
           <Text style={text.base}>
-            Your very first question will arrive in your inbox shortly but whilst you&apos;re
-            waiting you might want to have a look around your personal membership platform, so here
-            are some tips for finding your way around the Family Fortunate website.
-          </Text>
-
-          <br/>
-          <div style={{textAlign: 'center'}}>
-            <a href="#" style={{
-              backgroundColor: '#21C0AD',
-              color: 'white',
-              textDecoration: 'none',
-              fontWeight: 'bold',
-              padding: '10px',
-              borderRadius: '5px',
-              }}>Sign in</a>
-          </div>
-          <br/>
-
-          <ul style={text.base}>
-
-            <li style={li}>
-              <Link href="#" style={link}>
-                Help
-              </Link>{' '}
-              - You have access to an extensive online help centre if you need assistance finding
-              your way around your personal membership center.
-            </li>
-          </ul>
-
-          <Text style={text.base}>
-            You have 100 unique questions during your membership, 
-            but you have even more options than that.
-          </Text>
-
-          <ul style={text.base}>
-            <li style={li}>
-              <Link href="#" style={link}>
-                Select a different question
-              </Link>
-            </li>
-
-            <li style={li}>
-              <Link href="#" style={link}>
-                Edit your story
-              </Link>{' '}
-              - You can continue to make changes to your stories right throughout your membership
-            </li>
-          </ul>
-
-          <Text style={text.base}>
-            I hope you enjoy the exciting journey you&apos;re about to start as you recapture your
-            memories with the help of Family Fortunate.
+            Have you started working on your very first question or are 
+            you thinking about it & getting ready to put your thoughts 
+            into words.
           </Text>
 
           <Text style={text.base}>
-            Best wishes, <br />
-            <span style={{ fontWeight: 700 }}>Rachel</span> <br />
+            Here&apos;s another tip which comes directly from our 
+            storytellers. To make the most out of their memberships, 
+            our members tell us they&apos;re most successful when they get 
+            into a routine for their weekly entries.
+          </Text>
+
+          <Text style={text.base}>
+            Some look forward to receiving their weekly email & set 
+            time aside to write straight away.
+          </Text>
+
+          <Text style={text.base}>
+            Others find writing at night a nice way to end the day, so 
+            they take a few hours to think about how they&apos;ll approach 
+            their question & sit down after dinner when it&apos;s nice & quiet.
+          </Text>
+
+          <Text style={text.base}>
+            Plenty of our community of storytellers told us they like to 
+            write early, have a cup of tea nearby & spend some time in 
+            the morning before their day gets busy.
+          </Text>
+
+          <Text style={text.base}>
+            It doesn&apos;t matter what works for you, what matters is, try not 
+            to get too far behind in your weekly sessions, otherwise it 
+            might be tricky to catch up. Remember, after a year of 
+            questions you&apos;ll have the opportunity to order a printed 
+            book to share with your Fortunate Family so keep those 
+            memories coming each week!
+          </Text>
+
+          <Text style={text.subbaseitalic}>
+            Welcome to Family Fortunate, and enjoy!
+          </Text>
+
+          <Text style={text.base}>
+            <span style={{ fontWeight: 700 }}>Rachel</span><br/>
             Founder of Family Fortunate
           </Text>
 
           <div
             style={{
-              marginBottom: '16px',
-              borderRadius: '16px',
               backgroundColor: '#d0d5dd',
-              background: 'url(/static/bnimage.png)',
+              background: 'url(/static/bnimage3.png)',
               width: '700px',
               height: '249px',
-              left: '-1px',
-              top: '1177px',
+              left: '0px',
+              top: '1818px',
+              position: 'flex',
+              backgroundSize: 'cover',
             }}
           />
           
           <Text style={text.base}>
-            Stay updated by following us on our social media accounts to get more updates on our new
-            releases and any ongoing promotions.
+            📍 Stay Updated!
+          </Text>
+          <Text style={text.base}>
+            Follow us on our social media accounts to get more updates 
+            on our new releases and any ongoing promotions.
           </Text>
 
           <div
